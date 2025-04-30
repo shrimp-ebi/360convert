@@ -12,15 +12,15 @@
 正距円筒画像から横方向の画角60度、縦方向の画角30度を指定して正距円筒画像の正面方向の透視投影画像を作成します
 ```bash
 python3 360convert.py -i equirect.png -o perspective.png --fov_u 60 --fov_v 30
-
+```
 正距円筒画像から横方向の画角45度、縦方向の画角45度、横方向に視線を30度、縦方向に視線を10度回転した透視投影画像を作成します
 ```bash
 python3 360convert.py -i equirect.png -o perspective.png --fov_u 45 --fov_v 45 --ua 30 --va 10
-
+```
 魚眼画像から横方向の画角30度、縦方向の画角30度、画像面を45度回転した透視投影画像を作成します
 ```bash
 python3 360convert.py -i fisheye.png -o perspective.png --fov_u 30 --fov_v 30 --za 45 --image-type 1
-
+```
 ## オプション
 | オプション | 説明 |
 | :--: | :--: |
